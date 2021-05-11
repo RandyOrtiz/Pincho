@@ -51,13 +51,13 @@ Example of ideal directory structure for running Pincho:<br />
 __________________________________-----Species_A_Tissue_Type_B-----read_1.fq.gz, etc.<br />
 _________________________________________________________________-----etc.<br />
 <br />                              
-Once your directory is in the proper format:<br />
-- [1] Open terminal<br />
-- [2] Change working directory to the parent folder of your working folders (i.e. NGS_Project_1)<br />
-- [3] $Pincho_conf.py<br />
-- [4_alt] If you wish to test Pincho, then press the 'Test' button on the UI and click 'Start.'<br />
-- [4] Familiarize yourself with the parameters, then when ready press 'Clear' and create your pipeline.<br />
-- [5] Press 'Start' to start your created pipeline
+- Once your directory is in the proper format:<br />
+- - [1] Open terminal<br />
+- - [2] Change working directory to the parent folder of your working folders (i.e. NGS_Project_1)<br />
+- - [3] $Pincho_conf.py<br />
+- - [4_alt] If you wish to test Pincho, then press the 'Test' button on the UI and click 'Start.'<br />
+- - [4] Familiarize yourself with the parameters, then when ready press 'Clear' and create your pipeline.<br />
+- - [5] Press 'Start' to start your created pipeline
 
 # Troubleshooting
 The most common source of stress for the program will be the thread count and memory count. Please make sure to have at least 12 threads and 64GB of ram on the systema and please also scale in ratio (3:16). Having more threads than ram in this ratio will sometimes cause subprograms to fail.<br />
