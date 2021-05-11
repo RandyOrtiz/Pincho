@@ -66,52 +66,50 @@ For any other problem please reach out to us directly.
 
 # Subprograms
 As Pincho is a methods workflow, subprograms used are stated and given credit below:<br />
-- abyss
-- augustus
-- bbmap
-- binpacker
-- blat
-- boost
-- busco
-- bwa
-- cd-hit
-- circos
-- circos-tools
-- diamond
-- fastx_toolkit
-- hisat2
-- hmmer
-- idba
-- jellyfish
-- jre
-- kallisto
-- map2mitos
-- megahit
-- mira
-- mitobim
-- mitoz
-- ncbi-blast
-- oases
-- orp-transrate
-- paladin
-- python
-- quorum
-- rcorrector
-- rsem
-- salmon
-- samtools
-- seqkit
-- shannon
-- soapdenovo-trans
-- spades
-- sratoolkit
-- transabyss
-- transcriptomeAssemblyTools
-- translig
-- transrate
-- trimmomatic
-- trinity
-- velvet
+- ABySS version 2.2.4 https://github.com/bcgsc/abyss/releases/tag/2.2.4
+- Augustus version 3.3.3 https://github.com/Gaius-Augustus/Augustus/releases/tag/v3.3.3
+- BBMap version 38.86 https://sourceforge.net/projects/bbmap/files/
+- BinPacker version 1.0 https://sourceforge.net/projects/transcriptomeassembly/files/
+- BLAT version 35 https://genome-test.gi.ucsc.edu/~kent/src/
+- boost version 1.72.0 https://www.boost.org/users/download/
+- BUSCO version 4.0.1 https://gitlab.com/ezlab/busco/-/releases/4.0.1
+- BWA version 0.7.17 https://github.com/lh3/bwa/releases/tag/v0.7.17
+- CD-HIT version 4.8.1 https://github.com/weizhongli/cdhit/releases/tag/V4.8.1
+- Circos version 0.69.9 http://circos.ca/software/download/
+- Circos-tools version 0.22 http://mkweb.bcgsc.ca/dev/circos/software/download/utilities/
+- DIAMOND version 2.0.9 https://github.com/bbuchfink/diamond/releases/tag/v2.0.9
+- FASTX-Toolkit version 0.0.13 http://hannonlab.cshl.edu/fastx_toolkit/download.html
+- HISAT2 version 2.1.0 http://daehwankimlab.github.io/hisat2/download/#version-hisat2-210
+- HMMER version 3.2.1 http://eddylab.org/software/hmmer/
+- IDBA version 1.1.3 https://github.com/loneknightpy/idba/releases/tag/1.1.3
+- Jellyfish version 2.3.0 https://github.com/gmarcais/Jellyfish/releases/tag/v2.3.0
+- JRE version 1.8.0_231 https://www.java.com/en/download/manual.jsp
+- kallisto version 0.46.1 https://pachterlab.github.io/kallisto/download
+- MEGAHIT version 1.2.9 https://github.com/voutcn/megahit/releases/tag/v1.2.9
+- NCBI-BLAST version 2.3.0+ https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.3.0/
+- NCBI-BLAST version 2.10.0+ https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.10.0/
+- Oases version 0.2.09 https://github.com/dzerbino/oases/releases/tag/0.2.09
+- ORP-transrate version 1.0.3 https://github.com/macmanes-lab/Oyster_River_Protocol/tree/master/software
+- PALADIN version 1.4.6 https://github.com/ToniWestbrook/paladin/releases/tag/v1.4.6
+- Python version 3.8.0 https://www.python.org/downloads/
+- Quorum version 1.1.1 https://github.com/gmarcais/Quorum/releases/tag/v1.1.1
+- Rcorrector version 1.0.4 https://github.com/mourisl/Rcorrector/releases/tag/v1.0.4
+- RSEM version 1.3.1 https://github.com/deweylab/RSEM/releases/tag/v1.3.1
+- Salmon version 1.0.0 https://github.com/COMBINE-lab/salmon/releases/tag/v1.0.0
+- Samtools version 1.10 https://github.com/samtools/samtools/releases/tag/1.10
+- SeqKit version 0.16.0 https://bioinf.shenwei.me/seqkit/download/
+- Shannon_Cpp version 0.4.0 https://github.com/bx3/shannon_cpp/releases/tag/v0.4.0
+- SOAPdenovo-Trans version 1.0.4 https://github.com/aquaskyline/SOAPdenovo-Trans/releases/tag/1.0.4
+- SPAdes version 3.14.1 https://github.com/ablab/spades/releases/tag/v3.14.1
+- SRAtoolkit version 2.11.0 https://github.com/ncbi/sratoolkit
+- transabyss version 2.0.1 https://github.com/bcgsc/transabyss/releases/tag/2.0.1
+- TranscriptomeAssemblyTools https://github.com/harvardinformatics/TranscriptomeAssemblyTools
+- TransLiG version 1.3 https://sourceforge.net/projects/transcriptomeassembly/files/TransLiG/
+- transrate version 1.0.3 https://github.com/blahah/transrate/releases/tag/v1.0.3
+- Trimmomatic version 0.39 http://www.usadellab.org/cms/?page=trimmomatic
+- Trinity version 2.11.0 https://github.com/trinityrnaseq/trinityrnaseq/releases/tag/v2.11.0
+- Velvet version 1.2.10 https://www.ebi.ac.uk/~zerbino/velvet/
+
 
 Packages:
 - curl
