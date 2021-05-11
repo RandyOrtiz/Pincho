@@ -55,7 +55,7 @@ _________________________________________________________________-----etc.<br />
 - - [1] Open terminal<br />
 - - [2] Change working directory to the parent folder of your working folders (i.e. NGS_Project_1)<br />
 - - [3] $Pincho_conf.py<br />
-- - [4_alt] If you wish to test Pincho, then press the 'Test' button on the UI and click 'Start.'<br />
+- - [4_alt] If you wish to test Pincho, then press the 'Test' button on the UI adjust the memory allotment and click 'Start.'<br />
 - - [4] Familiarize yourself with the parameters, then when ready press 'Clear' and create your pipeline.<br />
 - - [5] Press 'Start' to start your created pipeline
 
