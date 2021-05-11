@@ -36,7 +36,14 @@ Pincho Master folder consists of:<br />
 <br />
 [Alt] as an alternative to launching the installer you can open the installer file as a text file and manually run the commands in terminal
 
-# Running Pincho
+# Running Pincho -Single Run
+- [1] Open terminal<br />
+- [3] $Pincho_conf.py<br />
+- [4_alt] If you wish to test Pincho, then press the 'Test' button on the UI adjust the memory allotment and click 'Start.'<br />
+- [4] Familiarize yourself with the parameters, then when ready press 'Clear' and create your pipeline.<br />
+- [5] Press 'Start' to start your created pipeline
+
+# Bulk Runs
 Pincho is designed to iterate through a large quantity of folders in a given directory, thus increasing its performance as it can run for months without user input. Because of this mechanic we impose a strict regimen of directory structure prior to launching Pincho.<br />
 <br />
 [1] Working folders, or folders containing data to be processed by Pincho must conform to one of the following formats:<br />
@@ -50,14 +57,12 @@ Example of ideal directory structure for running Pincho:<br />
 -----Desktop-----NGS_Project_1-----Species_A_Tissue_Type_A-----read_1.fq.gz, etc.<br />
 __________________________________-----Species_A_Tissue_Type_B-----read_1.fq.gz, etc.<br />
 _________________________________________________________________-----etc.<br />
-<br />                              
-- Once your directory is in the proper format:<br />
-- - [1] Open terminal<br />
-- - [2] Change working directory to the parent folder of your working folders (i.e. NGS_Project_1)<br />
-- - [3] $Pincho_conf.py<br />
-- - [4_alt] If you wish to test Pincho, then press the 'Test' button on the UI adjust the memory allotment and click 'Start.'<br />
-- - [4] Familiarize yourself with the parameters, then when ready press 'Clear' and create your pipeline.<br />
-- - [5] Press 'Start' to start your created pipeline
+<br />
+- [1] Open terminal<br />
+- [2] Change working directory to the parent folder of your working folders (i.e. NGS_Project_1)<br />
+- [3] $Pincho_conf.py<br />
+- [4] Familiarize yourself with the parameters, then when ready press 'Clear' and create your pipeline.<br />
+- [5] Press 'Start' to start your created pipeline
 
 # Troubleshooting
 The most common source of stress for the program will be the thread count and memory count. Please make sure to have at least 12 threads and 64GB of ram on the systema and please also scale in ratio (3:16). Having more threads than ram in this ratio will sometimes cause subprograms to fail.<br />
