@@ -1,6 +1,10 @@
 # Pincho v0.1
 A Modular Approach to High Quality de novo Transcriptomics
 
+# Download
+Available to download from google drive.<br />
+https://drive.google.com/file/d/1KQqyNnUTb35wHl8IUuM31-rnzSXYMLlm/view?usp=sharing
+
 # Table of Contents
 (1) Introduction<br />
 (2) What's Inside?<br />
