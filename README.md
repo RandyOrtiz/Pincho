@@ -1,4 +1,4 @@
-# Pincho
+# Pincho v0.1
 A Modular Approach to High Quality de novo Transcriptomics
 
 # Table of Contents
