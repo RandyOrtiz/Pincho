@@ -18,7 +18,7 @@ Pincho is:<br />
 # What's Inside?
 Pincho Master folder consists of:<br />
 - bin folder with all subprograms<br />
-- lib folder with some premade annotation databases<br />
+- lib folder with some premade annotation databases (kegg, trembl_amphibians, uniprot)<br />
 - COPYING.txt our license agreement<br />
 - png files for our pincho icon and UI<br />
 - pincho.conf or a printed methods list of the last run<br />
@@ -65,6 +65,100 @@ The most common source of stress for the program will be the thread count and me
 For any other problem please reach out to us directly.
 
 # Subprograms
+As Pincho is a methods workflow, subprograms used are stated and given credit below:<br />
+- abyss
+- augustus
+- bbmap
+- binpacker
+- blat
+- boost
+- busco
+- bwa
+- cd-hit
+- circos
+- circos-tools
+- diamond
+- fastx_toolkit
+- hisat2
+- hmmer
+- idba
+- jellyfish
+- jre
+- kallisto
+- map2mitos
+- megahit
+- mira
+- mitobim
+- mitoz
+- ncbi-blast
+- oases
+- orp-transrate
+- paladin
+- python
+- quorum
+- rcorrector
+- rsem
+- salmon
+- samtools
+- seqkit
+- shannon
+- soapdenovo-trans
+- spades
+- sratoolkit
+- transabyss
+- transcriptomeAssemblyTools
+- translig
+- transrate
+- trimmomatic
+- trinity
+- velvet
 
+Packages:
+- curl
+- python
+- python3
+- pip
+- pip3
+- numpy
+- gcc
+- make
+- cmake
+- libbz2-dev
+- libncurses5-dev
+- zlib1g-dev
+- libncursesw5-dev
+- liblzma-dev
+- libcurl4-openssl-dev
+- libssl-dev
+- libsparsehash-dev
+- shmlast
+- bowtie2
+- samtools
+- pandas
+- biopython==1.77
+- tqdm
+- default-jre
+- git
+- dos2unix
+- cd-hit
+- pkgconf
+- sh
+- cvxopt
+- metis
+- r-base
+- python-igraph==0.8.3
+- csvtool
+- libboost-iostreams-dev
+- libgsl-dev
+- libboost-graph-dev
+- libboost-all-dev
+- libsuitesparse-dev
+- liblpsolve55-dev
+- libsqlite3-dev
+- libmysql++-dev
+- libbamtools-dev
+- python-tk
+- python3-tk
+- pigz
 
-
+What is not currently in use is intended for use in future versions of Pincho.
