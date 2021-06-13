@@ -1,0 +1,53 @@
+4.0.1
+- Issue #164 fixed
+- Issue #166 fixed
+- Issue #169 fixed
+- Enforce single core on BLAST 2.4-2.10 to guarantee consistency of results. We recommend BLAST 2.2 or 2.3 for performance.
+
+4.0.0
+- Add the auto lineage selection through phylogenetic placement
+- Introduce the automated downloads and updates of data files
+- Use the OrthoDB v10 datasets, "_odb10", 166 lineages including archaea
+- Add links to orthoDB in the file full_table.tsv
+- Use Prodigal as gene predictor for non-eukaryotes
+- Major refactoring of the code
+- Main script is now called `busco`
+- Improved logging system, notably to address issue #60 and to provide debug info without rerunning with debug=True
+- Fix many minor bugs reported over years
+
+3.1.0
+- Add the additional script run_BUSCO_auto_lineage.sh
+
+3.0.2
+- The ~ character can be used in the config.ini file
+
+3.0.1
+- Add the environment variable BUSCO_CONFIG_FILE
+- Add the –blast_single_core option
+- Incompatibilities between plotting tool and config fixed
+
+3.0.0
+- Major refactoring of the code
+- Introduce setup.py
+- Introduce the config.ini file
+- Issue #24 fixed
+- Issue #25 fixed
+- Switch to the MIT License
+
+2.0.1
+- Stop the execution when tblastn crashes, instead of just warning the user
+- Issue #16 fixed
+- Issue #9 fixed
+
+2.0
+- Minor changes, similar to beta 4
+
+2.0 beta 4
+- Sort the results by BUSCO ids in the full table output file
+- Allow the user to pass custom Augustus parameters
+
+2.0 beta 3
+- Improve the detection of problematic special characters in the fasta header and sequences
+
+2.0 beta
+- The 1.0 code was debugged and new functionalities were added. See the user guide
