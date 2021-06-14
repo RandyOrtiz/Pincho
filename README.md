@@ -69,9 +69,9 @@ Pincho is designed to iterate through a large quantity of folders in a given dir
 <br />
 Example of ideal directory structure for running Pincho:<br />
 <br />
------Desktop-----NGS_Project_1-----Species_A_Tissue_Type_A-----read_1.fq.gz, etc.<br />
-__________________________________-----Species_A_Tissue_Type_B-----read_1.fq.gz, etc.<br />
-_________________________________________________________________-----etc.<br />
+/Desktop/NGS_Project_1/Species_A_Tissue_Type_A/read_1.fq.gz, etc.<br />
+/Desktop/NGS_Project_1/Species_A_Tissue_Type_B/read_1.fq.gz, etc.<br />
+/Desktop/NGS_Project_1/etc.<br />
 <br />
 - [1] Open terminal<br />
 - [2] Change working directory to the parent folder of your working folders (i.e. NGS_Project_1)<br />
