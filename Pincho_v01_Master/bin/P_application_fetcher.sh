@@ -77,6 +77,7 @@ cp -a velvet_1.2.10/. oases-0.2.09/oases/velvet
 cd oases-0.2.09/oases
 make 'MAXKMERLENGTH=149' 'CATEGORIES=5'
 cd ..
+cd ..
 
 wget https://github.com/bx3/shannon_cpp/releases/download/v0.4.0/shannon_cpp-Linux64-v0.4.0.tar.gz
 tar -xvzf shannon_cpp-Linux64-v0.4.0.tar.gz
