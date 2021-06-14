@@ -2,8 +2,7 @@
 A Modular Approach to High Quality de novo Transcriptomics
 
 # Download
-Available to download from google drive.<br />
-https://drive.google.com/file/d/1KQqyNnUTb35wHl8IUuM31-rnzSXYMLlm/view?usp=sharing
+Available to download from our github releases.
 
 # Table of Contents
 (1) Introduction<br />
@@ -30,13 +29,25 @@ Pincho Master folder consists of:<br />
 - pincho.py the main workflow of pincho<br />
 - P_installer.py an automated installer script to be launched in its residing location
   
-# Installation
-- [1] Download Pincho_Master from this github page<br />
+# Installation - Normal
+- [1] Download Pincho_Master from releases<br />
 - [2] Open Terminal<br />
 - [3] $cd Pincho_Master<br />
 - [4] $P_installer.py<br />
 - [5] be sure to answer 'y' when prompted by the automated installer<br />
 - [6] installation complete!<br />
+<br />
+[Alt] as an alternative to launching the installer you can open the installer file as a text file and manually run the commands in terminal
+
+# Installation - Light
+- [1] Download Pincho_Master from releases<br />
+- [2] Open Terminal<br />
+- [3] $cd Pincho_Master/bin <br />
+- [4] $P_application_fetcher.sh <br />
+- [5] $cd Pincho_Master <br />
+- [6] $P_installer.py<br />
+- [7] be sure to answer 'y' when prompted by the automated installer<br />
+- [8] installation complete!<br />
 <br />
 [Alt] as an alternative to launching the installer you can open the installer file as a text file and manually run the commands in terminal
 
